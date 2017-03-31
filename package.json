@@ -1,0 +1,18 @@
+{
+  "name": "node-h1bvisa",
+  "version": "1.0.0",
+  "description": "Node.js module for retrieving H1B visa information by company",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "h1b",
+    "job",
+    "visa"
+  ],
+  "author": "macctown <macctown@hotmail.com> (http://zhang-wei.me)",
+  "license": "MIT"
+}
