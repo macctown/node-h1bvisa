@@ -1,6 +1,6 @@
 {
   "name": "node-h1bvisa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js module for retrieving H1B visa information by company",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,24 @@
     "job",
     "visa"
   ],
-  "author": "macctown <macctown@hotmail.com> (http://zhang-wei.me)",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macctown/node-h1bvisa.git"
+  },
+  "author": {
+    "name": "macctown",
+    "email": "zhangwei.luvcode@gmail.com",
+    "url": "http://zhang-wei.me"
+  },
+  "bugs": {
+    "url": "https://github.com/macctown/node-h1bvisa/issues"
+  },
+  "homepage": "https://github.com/macctown/node-glassdoor#readme",
+  "license": "MIT",
+  "dependencies": {
+    "query-string": "^4.1.0",
+    "request": "~2.72.0",
+    "cheerio": "^0.22.0",
+    "cheerio-tableparser": "^1.0.1"
+  }
 }
